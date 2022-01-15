@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <person>
+        <name>Jack Ma</name>
+        <age>98</age>
+        <hobbies>Acting</hobbies>
+        <hobbies>Dancing</hobbies>
+        <hobbies>Singing</hobbies>
+    </person>
+    <person>
+        <name>Harry </name>
+        <age>23</age>
+        <hobbies>Acting</hobbies>
+        <hobbies>Dancing</hobbies>
+        <hobbies>Singing</hobbies>
+    </person>
+    <person>
+        <name>Billa</name>
+        <age>98</age>
+        <hobbies>Acting</hobbies>
+        <hobbies>Dancing</hobbies>
+        <hobbies>Singing</hobbies>
+    </person>
+    <person>
+        <name>Singh</name>
+        <age>98</age>
+        <hobbies>Acting</hobbies>
+        <hobbies>Dancing</hobbies>
+        <hobbies>Singing</hobbies>
+    </person>
+    <person>
+        <name>Watson</name>
+        <age>98</age>
+        <hobbies>Acting</hobbies>
+        <hobbies>Dancing</hobbies>
+        <hobbies>Singing</hobbies>
+    </person>
+    <person>
+        <name>Herry</name>
+        <age>98</age>
+        <hobbies>Acting</hobbies>
+        <hobbies>Dancing</hobbies>
+        <hobbies>Singing</hobbies>
+    </person>
+    <person>
+        <name>Binod</name>
+        <age>98</age>
+        <hobbies>Acting</hobbies>
+        <hobbies>Dancing</hobbies>
+        <hobbies>Singing</hobbies>
+    </person>
+    <person>
+        <name>Bhatt</name>
+        <age>98</age>
+        <hobbies>Acting</hobbies>
+        <hobbies>Dancing</hobbies>
+        <hobbies>Singing</hobbies>
+    </person>
+    <person>
+        <name>Samay Raina</name>
+        <age>98</age>
+        <hobbies>Acting</hobbies>
+        <hobbies>Dancing</hobbies>
+        <hobbies>Singing</hobbies>
+    </person>
+    <person>
+        <name>Jaby Koay</name>
+        <age>98</age>
+        <hobbies>Acting</hobbies>
+        <hobbies>Dancing</hobbies>
+        <hobbies>Singing</hobbies>
+    </person>
+</document>
