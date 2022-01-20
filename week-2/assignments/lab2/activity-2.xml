@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<businesscard>
+<information>
+    <name>Joe Marini</name>
+    <phonenumber>
+    +1 (415) 555-1234 (home)
+    +1 (800) 555-9867 (work)
+    +1 (510) 555-1212 (mobile)</phonenumber>
+    <email>joe@joe.com</email>
+    </information>
+    <information>
+    <name>parisa</name>
+    <phonenumber>
+    +1 (415) 556-1234 (home)
+    +1 (800) 559-9867 (work)
+    +1 (510) 558-1212 (mobile)</phonenumber>
+    <email>parisa@parisa.com</email>
+    </information>
+    <information>
+    <name>Manant</name>
+    <phonenumber>
+    +1 (415) 595-1234 (home)
+    +1 (800) 585-9867 (work)
+    +1 (510) 595-1212 (mobile)</phonenumber>
+    <email>Manant@Manant.com</email>
+    </information>
+  </businesscard>
+	
+	
+	
