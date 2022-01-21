@@ -1,0 +1,31 @@
+originalName{
+    font-size: large;
+    color: purple;
+}
+menu{
+    float: left;
+}
+
+
+
+menuInfo{
+    background-color: palegreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+effectiveDate{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:blue;
+}
+
+
+category{
+    font-size: medium;
+    color: saddlebrown;
+    font-style: georgia;
+}
+title{
+    font-size: x-large;
+    font-weight: bold;
+    color:blueviolet
+}
