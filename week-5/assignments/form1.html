@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> shopping form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label for="firstname">FIRST NAME:</label><br>
+            <input type="'text" id="firstname" name="firstname"><br>
+            <label for="lastname">LAST NAME:</label><br>
+            <input type="text" id="firstname" name="lastname"><br>
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">female</label><br>
+            
+            <p>What kind clothes you  will prefer:</p>
+            <input type="checkbox" id="clothes" name="clothes" value="winter">
+            <label for="clothes">winter</label><br>
+            <input type="checkbox" id="clothes1" name="clothes1" value="summer">
+            <label for="clothes1">summer</label><br>
+            
+            <input type="submit" value=" click to Submit" onclick="create()">
+            <h2>Feedback you would like to give Us</h2>
+            <input type="text" name="messageIn" id='messageIn'>
+             <button type="button" id="sendBtn">press to send</button>
+            <h2>Thanks for Feedback</h2>
+            <h2 id="messageOut"></h2>
+               
+            
+            <script>
+                function create() 
+                {
+                console.log("Thanks for visiting our site");
+                }
+                const sendBtn = document.querySelector('#sendBtn');
+const messageIn = document.querySelector('#messageIn');
+const  messageOut= document.querySelector('#messageOut');
+
+sendBtn.addEventListener('click',sendMsg)
+
+
+    function sendMsg (){
+    let content = messageIn.value;
+    //console.log(content);
+    if(content===''){
+        alert('please enter valid value')
+    }
+    else{
+       
+    messageOut.innerHTML = content;
+    messageIn.value='';
+}
+}
+                
+            </script>
+        </fieldset>
+    </form>    
+</body>
+</html>
