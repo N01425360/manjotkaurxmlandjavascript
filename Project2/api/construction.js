@@ -9,11 +9,11 @@ const getAll = ({ id, product, material, role } = {}) =>
     }
 
     if (product) {
-      result = result.filter(item => item.product === product.toLowerCase());
+      result = result.filter(item => item.product.toLowerCase().includes(product.toLowerCase()));
     }
 
     if (material) {
-      result = result.filter(item => item.material === material.toLowerCase());
+      result = result.filter(item => item.material.toLowerCase().includes(material.toLowerCase()));
     }
 
     if (role) {
