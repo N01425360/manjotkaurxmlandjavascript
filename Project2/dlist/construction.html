@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>Project 2</title>
+  </head>
+  <body>
+    <h2>Construction Table </h2>
+    <style>
+      h2 {
+          text-align: center;
+          color: black;
+        
+      }
+     
+      th {
+          background-color: pink;
+          color: black;
+          height: 50px;
+          font-size: 30px;
+      }
+      tr {
+          height: 20px;
+      }
+      
+      button{
+         
+          height: 35px;
+          
+          font-size: 20px;
+         
+      }
+      
+          </style>
+    <form>
+      <label class="Construction">Select ID = </label>
+      <input type="text" name="id" id="input-id" placeholder="ID "/><br><br>
+      <label class="Construction">Select Product  = </label>
+      <input type="text" name="product" id="input-product" placeholder="product"/><br><br>
+      <label class="Construction">Select Material = </label>
+      <input type="text" name="material" id="input-material" placeholder="material"/><br><br>
+      <label class="Construction">Select Role = </label>
+      <input type="text" name="role" id="input-role" placeholder="role"/><br><br>
+      <button type="submit">Apply filters</button>
+      <button type="reset">Reset</button><br><br>
+    </form>
+    <table border="5">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>product</th>
+          <th>material</th>
+          <th>role</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+    <script src="./bundle.js"></script>
+  </body>
+</html>
